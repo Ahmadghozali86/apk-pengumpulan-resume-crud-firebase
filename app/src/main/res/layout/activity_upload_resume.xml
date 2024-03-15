@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UploadResume">
+
+    <!-- Minggu 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resume Minggu 1"
+            android:layout_marginEnd="8dp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonChooseFile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih File Resume Minggu 1"
+        android:layout_marginStart="8dp" />
+
+    <!-- Minggu 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resume Minggu 2"
+            android:layout_marginEnd="8dp" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonChooseFile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih File Resume Minggu 2"
+        android:layout_marginStart="8dp" />
+    <!-- Minggu 3 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resume Minggu 3"
+            android:layout_marginEnd="8dp" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonChooseFile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih File Resume Minggu 3"
+        android:layout_marginStart="8dp" />
+</LinearLayout>
